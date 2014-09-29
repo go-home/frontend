@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="copyright" content="">
+<link rel="shortcut icon bookmark" href="/favicon.ico" type="image/x-icon" />
+<title>Demo</title>
+<link href="dev_statics/styles/ui.css" rel="stylesheet">
+<link href="dev_statics/styles/layout.css" rel="stylesheet">
+<link href="dev_statics/styles/icon.css" rel="stylesheet">
+
+<script src="sea_modules/seajs/seajs/2.3.0/sea.js"></script>
+<script src="sea_modules/seajs/seajs-css/seajs-css.js"></script>
+<script src="sea_modules/seajs/seajs-preload/seajs-preload.js"></script>
+<script src="sea_modules/seajs/seajs-log/seajs-log.js"></script>
+<script src="sea_modules/config.js"></script>
+<script src="sea_modules/init.js"></script>
+<!--[if lt IE 9]>
+<script src="dev_statics/scripts/html5shiv.js"></script>
+<script src="dev_statics/scripts/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<div class="site-topbar">
+	<div class="container">
+		<div class="topbar-nav">1</div>
+		<div class="topbar-info">
+			<a href="#">登录</a>
+			<span class="sep">|</span>
+			<a href="#">注册</a>
+		</div>
+	</div>
+</div>
+
+<div class="site-header">
+	<div class="container">
+		<div class="site-logo"><a href="#" class="logo"></a></div>
+		<div class="header-info">1</div>
+	</div>
+</div>
+
+<div class="site-header-nav">
+	<div class="container fn-clear">
+		<div class="nav-category fn-left">
+			<a href="#" class="btn-category-list">全部商品分类</a>
+			<!--分类列表 begin-->
+			<div class="nav-category-section">
+				<ul class="nav-category-list">
+					<li class="nav-category-item nav-category-item-first">
+						<div class="nav-category-content">
+							<a href="#" class="title">一级分类</a>
+							<div class="links">
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-category-item">
+						<div class="nav-category-content">
+							<a href="#" class="title">一级分类</a>
+							<div class="links">
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-category-item">
+						<div class="nav-category-content">
+							<a href="#" class="title">一级分类</a>
+							<div class="links">
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-category-item">
+						<div class="nav-category-content">
+							<a href="#" class="title">一级分类</a>
+							<div class="links">
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-category-item">
+						<div class="nav-category-content">
+							<a href="#" class="title">一级分类</a>
+							<div class="links">
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-category-item">
+						<div class="nav-category-content">
+							<a href="#" class="title">一级分类</a>
+							<div class="links">
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+								<a href="#">二级分类</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--分类列表 end-->
+		</div>
+		<div class="nav-main fn-left">
+			<ul class="nav-main-list fn-clear">
+				<li class="nav-main-item">
+					<a href="#"><i class="arrow"></i><span class="text">小米手机</span></a>
+				</li>
+				<li class="nav-main-item">
+					<a href="#"><i class="arrow"></i><span class="text">小米手机</span></a>
+				</li>
+			</ul>
+		</div>
+		<!--cart-->
+		<div class="utility">
+			<dl class="mycart">
+				<dt class="opener" id="tit_cart">
+					<a href="http://www.newegg.cn/Shopping/ShoppingCart.aspx" target="_blank">
+						购物车<strong id="headerCartCount">0</strong>件<s></s>
+					</a>
+				</dt>
+				<dd>
+					<div class="inner">
+						<div class="empty">
+							<s class="inblock mr5"></s>您还没有购买商品，快去挑选吧！
+						</div>
+					</div>
+				</dd>
+			</dl>
+		</div>
+
+	</div>
+</div>
+
+<div class="container">
+	<div class="home-slider fn-left">
+		<div id="home_slider">
+			<a href="#"><img src="dev_public/0924CYHD.jpg"></a>
+			<a href="#"><img src="dev_public/0919wanDS.jpg"></a>
+		</div>
+	</div>
+</div>
+
+<!--new item-->
+<div class="container home-item goHome-plain-box">
+	<div class="box-hd">
+		<h3 class="title">热门商品</h3>
+	</div>
+	<div class="box-bd">
+		<div class="goHome-goods-list-wrap">
+			<div class="goods-item">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1LhVTBsVT1RXrhCrK.jpg?width=220&height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100</em>
+						</strong>
+						<del>￥200</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right fn-clear"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+			<div class="goods-item">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1lRhTB7dT1RXrhCrK.jpg?width=220&amp;height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装大电池全能套装大电池全能套装大电池全能套装大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100</em>
+						</strong>
+						<del>￥200</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+			<div class="goods-item">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1LhVTBsVT1RXrhCrK.jpg?width=220&height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装大电池全能套装大电池全能套装大电池全能套装大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100元</em>
+						</strong>
+						<del>￥200元</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+			<div class="goods-item last">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1lRhTB7dT1RXrhCrK.jpg?width=220&amp;height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装大电池全能套装大电池全能套装大电池全能套装大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100元</em>
+						</strong>
+						<del>￥200元</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container home-item goHome-plain-box">
+	<div class="box-hd">
+		<h3 class="title">新品上架</h3>
+	</div>
+	<div class="box-bd">
+		<div class="goHome-goods-list-wrap">
+			<div class="goods-item">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1LhVTBsVT1RXrhCrK.jpg?width=220&height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100</em>
+						</strong>
+						<del>￥200</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right fn-clear"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+			<div class="goods-item">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1lRhTB7dT1RXrhCrK.jpg?width=220&amp;height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装大电池全能套装大电池全能套装大电池全能套装大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100</em>
+						</strong>
+						<del>￥200</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+			<div class="goods-item">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1LhVTBsVT1RXrhCrK.jpg?width=220&height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装大电池全能套装大电池全能套装大电池全能套装大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100元</em>
+						</strong>
+						<del>￥200元</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+			<div class="goods-item last">
+				<div class="item-content">
+					
+					<span class="item-thumb">
+						<a href="#"><img src="http://img08.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1lRhTB7dT1RXrhCrK.jpg?width=220&amp;height=220" alt="大电池全能套装"></a>
+					</span>
+					<span class="item-title">
+						<a href="#">大电池全能套装大电池全能套装大电池全能套装大电池全能套装大电池全能套装</a>
+					</span>
+					<span class="item-price">
+						<strong>
+							<ins>¥</ins>
+							<em>100元</em>
+						</strong>
+						<del>￥200元</del>
+					</span>
+					<a href="#" class="ui tiny youtube button labeled icon fn-right"><i class="icon cart"></i>立即购买</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!--floor-->
+<div class="container home-item goHome-floor-box">
+	<div class="box-hd">
+		<h3 class="title">2F 水具</h3>
+	</div>
+	<div class="box-bd">
+		<div class="floor-goods-list-wrap  fn-clear">
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container home-item goHome-floor-box">
+	<div class="box-hd">
+		<h3 class="title">2F 水具</h3>
+	</div>
+	<div class="box-bd">
+		<div class="floor-goods-list-wrap  fn-clear">
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container home-item goHome-floor-box">
+	<div class="box-hd">
+		<h3 class="title">2F 水具</h3>
+	</div>
+	<div class="box-bd">
+		<div class="floor-goods-list-wrap  fn-clear">
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+			<div class="goods-item">
+				<a href="#"><img src="http://img.zaihuni.com/images/201408/thumb_img/3127_thumb_G_1407374588362.jpg" alt="大电池全能套装"></a>
+				<p class="item-name">
+					<a href="#">亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙亲子装秋装2014新款韩版圆领七分袖母女装家庭装大码绣花连衣裙</a>
+				</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="footer-info">
+	<div class="container">
+		<div class="links">
+			<a href="###" target="_blank" rel="nofollow">关于我们</a>|
+			<a href="###" target="_blank" rel="nofollow">联系我们</a>|
+			<a href="###" target="_blank" rel="nofollow">人才招聘</a>|
+			<a href="###" target="_blank" rel="nofollow">广告服务</a>|
+			<a href="###" target="_blank">友情链接</a>
+		</div>
+		<div class="copyright">
+			北京市公安局朝阳分局备案编号123456789  |  京ICP证12345678号  |  互联网药品信息服务资格证编号(京)-非经营性-2011-0034
+		</div>
+	</div>
+</div>
+<script>
+seajs.use('test/main')
+</script>
+</body>
+</html>
