@@ -31,6 +31,8 @@ seajs.config({
     'tip'         : 'nmtree/tip/1.0.0/tip',
     'dialog'      : 'nmtree/dialog/1.3.8/dialog',
     'toolTip'      : 'nmtree/toolTip/1.2.1/toolTip',
+    'tab'         : 'nmtree/tab/1.0.0/tab',
+    'shopcart'    : 'nmtree/cart/1.0.0/cart',
   },
   shim: {
     handlebars: {

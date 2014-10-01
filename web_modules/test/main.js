@@ -9,13 +9,7 @@
     (function () {
         'use strict';
         require('miniSlider');
-        $(".utility dt").hover(function(){
-            $(".utility dl").addClass("expand");
-            $(this).next().show();
-        },function(){
-            $(".utility dl").removeClass("expand");
-            $(this).next().hide();
-        });
+        
 
         $(".nav-category-item").hover(function(){
             $(this).addClass("current");

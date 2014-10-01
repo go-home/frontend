@@ -5680,19 +5680,19 @@ i.massive.basic.icon {
   color: #FFFFFF;
 }
 
-/* YouTube */
+/* cart */
 
-.ui.youtube.button {
+.ui.cart.button {
   background-color: #CC181E;
   color: #FFFFFF;
 }
 
-.ui.youtube.button:hover {
+.ui.cart.button:hover {
   background-color: #DF0209;
   color: #FFFFFF;
 }
 
-.ui.youtube.button:active {
+.ui.cart.button:active {
   background-color: #A50006;
   color: #FFFFFF;
 }
@@ -6459,6 +6459,19 @@ i.massive.basic.icon {
 .ui.green.buttons .button:active,
 .ui.green.button:active {
   background-color: #4CB164;
+  color: #FFFFFF;
+}
+/**buy btn**/
+.ui.buy.buttons .button,
+.ui.buy.button {
+  background-color: #ba7538;
+  color: #FFFFFF;
+}
+.ui.buy.buttons .button:hover,
+.ui.buy.button:hover,
+.ui.buy.buttons .active.button,
+.ui.buy.button.active {
+  background-color:rgba(186, 117, 56, 0.9);
   color: #FFFFFF;
 }
 

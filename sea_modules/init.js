@@ -6,6 +6,7 @@ define(function(require, exports) {
 	var _base		= require('base');
 	var _app     	= require('app');
 	var _dialog 	= require('dialog');
+	require('shopcart').init();
 
 	require('backtop').init("top");
 	var _toolTip    = require('toolTip');
@@ -17,6 +18,7 @@ define(function(require, exports) {
 	store  		= _store;
 	base 		= _base;
 	APP  		= _app;
+	//cart  		= _cart;
 });
 
 
